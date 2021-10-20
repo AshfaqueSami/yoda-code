@@ -9,8 +9,8 @@ const HireTeacherData = () => {
             .then(data => setTeachers(data))
     }, [])
     return (
-        <div>
-            <h1 style={{ marginTop: '50px' }} className='text-center'>Our Populer Teachers</h1>
+        <div style={{backgroundColor:'#F3F4F6'}}>
+            <h1  style={{ marginTop: '50px', fontWeight:'900', fontSize:'50px' }} className='text-center'>Our Populer Teachers</h1>
             <div style={{ marginTop: '80px' }}>
                 {
                     teachers.map(teacher => <HireTeacherContent key={teacher.key} teacher={teacher}></HireTeacherContent>)

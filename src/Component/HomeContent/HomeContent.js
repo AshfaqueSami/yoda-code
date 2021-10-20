@@ -9,6 +9,7 @@ const HomeContent = (props) => {
     }
     return (
         <div>
+            
             <div className='w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-96 lg:aspect-none'>
                 <img className="lg:h-64 lg:w-96 h-64 w-96" src={img} alt="" />
                 <p className="text-md text-indigo-600 font-bold">{title}</p>
